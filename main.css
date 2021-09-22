@@ -1,9 +1,11 @@
-header {
-  font-family: Courgette;
-}
-
 body{
   font-family: Oswald;
+}
+
+/*HEADER*/
+
+header {
+  font-family: Courgette;
 }
 
 nav{
@@ -50,4 +52,15 @@ a{
 }
 .titlepage img{
   width: 90px;
+}
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+  display: flex;
+  flex-direction: row;
 }
