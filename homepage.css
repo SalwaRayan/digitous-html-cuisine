@@ -1,3 +1,23 @@
+.titlepage{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header{
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.titlepage h1, p, img{
+  margin: 10px;
+}
+
+
+
+
+
+
 .articles{
     display: flex;
     flex-direction: row;
