@@ -1,0 +1,55 @@
+.articles{
+    display: flex;
+    flex-direction: row;
+}
+
+.ttlart h1{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-bottom: 38px;
+}
+
+.articles img{
+    width: 200px;
+}
+
+.flexart{
+    display: flex;
+    flex-direction: row;
+}
+
+.dernart{
+    margin: 30px 150px;
+}
+
+.p1{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 600px;
+}
+
+.fontart{
+    font-size: 12px;
+}
+
+.art{
+    font-size: 23px;
+}
+
+
+@media(max-width: 768px){
+    .input{
+        display: none;
+    }
+    .flexart{
+        flex-direction: column;
+    }  
+    .flexart img{
+        width: 100%;
+    }
+    .dernart{
+        margin: auto;
+        align-items: center;
+    }
+}
