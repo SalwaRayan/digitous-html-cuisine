@@ -11,7 +11,17 @@ nav{
 }
 
 .entete {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.entete a{
+  font-weight: 300;
+  padding: 5px;
 }
 
 .gras{
@@ -20,4 +30,24 @@ nav{
 
 a{
   text-decoration: none;
+}
+
+.active{
+  color: #fff;
+}
+.inactive {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.titlepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+  height: 440px;
+  color: white;
+}
+.titlepage img{
+  width: 90px;
 }
