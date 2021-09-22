@@ -9,7 +9,7 @@ header{
   background-position-y: center;
 }
 
-.titlepage h1, p, img{
+.titlepage h1, .titlepage p, .titlepage img{
   margin: 10px;
 }
 
@@ -40,7 +40,10 @@ header{
 }
 
 .dernart{
-    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
 }
 
 .p1{
@@ -58,6 +61,12 @@ header{
 }
 
 
+@media(max-width: 1024px){
+  .input form{
+    display: none;
+  } 
+}
+
 @media(max-width: 768px){
     .input{
         display: none;
@@ -69,7 +78,7 @@ header{
         width: 100%;
     }
     .dernart{
-        margin: auto;
+        margin: 30px auto;
         align-items: center;
     }
 }
