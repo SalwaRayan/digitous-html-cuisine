@@ -1,0 +1,23 @@
+header {
+  font-family: Courgette;
+}
+
+body{
+  font-family: Oswald;
+}
+
+nav{
+  font-family: Oswald;
+}
+
+.entete {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gras{
+  font-family: Courgette;
+}
+
+a{
+  text-decoration: none;
+}
