@@ -119,3 +119,33 @@ li{
   font-size: large;
   line-height: 0;
 }
+
+
+@media(max-width: 1024px){
+  .input form{
+    display: none;
+  } 
+}
+
+@media(max-width: 768px){
+  .input{
+      display: none;
+  }
+  .recipe{
+    flex-direction: column;
+  }
+  ul{
+    width: 100%;
+  }
+
+  .pub{
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .bg{
+    background-size:cover;
+    background-position: center;
+    margin: 10px auto;
+  }
+
+}
