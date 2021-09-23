@@ -1,0 +1,33 @@
+/* Page2 */
+
+.introduction{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 150px;
+}
+
+.antoine{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 2 px solid black;
+  border-bottom: 2 px solid grey;
+}
+
+.antform{
+  display: flex;
+  justify-content: center;
+}
+
+.anttitle{
+  font-size: 28px;
+  margin-left: 300px;
+}
+
+.antimg{
+  width: 70px;
+}
+
+.commentaires{
+  margin-left: 300px;    
+}
