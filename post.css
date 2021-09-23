@@ -1,0 +1,88 @@
+/* Page2 */
+
+body{
+  font-size: 20px;
+}
+
+.gras{
+  font-size: 28px;
+}
+
+.introduction{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  font-size: 24px;
+  padding-right: 50px;
+}
+
+.antinput{
+  font-size: 24px;
+}
+
+.antoine{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  margin-left: 50px;
+  margin-right: 70px;
+}
+
+.antimg{
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin-right: 30px;
+}
+
+.anttext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding-top: 50px;
+}
+
+.antcontainer{
+  display: flex;
+  flex-direction: row;
+  padding-left: 450px;
+  padding-top: 30px;
+}
+
+.antform{
+  width: 300px;
+  margin-top: 50px;
+}
+
+.anttitle{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 280px;
+  margin-right: 100px;
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+
+.commentaires{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;    
+}
+
+.flexart{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.last{
+  margin-left: 50px;
+}
+
+.last img{
+  opacity: 0.4;
+}
