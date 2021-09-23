@@ -10,14 +10,14 @@ header{
 }
 
 
-ul {
+.recipe ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   width: 207px;
   height: fit-content;
 }
-li{
+.recipe li{
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 7px 10px;
@@ -134,7 +134,7 @@ li{
   .recipe{
     flex-direction: column;
   }
-  ul{
+  .recipe ul{
     width: 100%;
   }
 
