@@ -20,12 +20,15 @@ header{
   flex-direction: row;
   padding-top: 40px;
   margin-left: 120px;
-  width: 800px;
+  padding-right: 40px;
+  width: 1100px;
   
 }
 
 .antinput{
   font-size: 24px;
+  width: 50%;
+  margin-left: 40px;
 }
 
 .antoine{
