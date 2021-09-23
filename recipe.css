@@ -1,0 +1,151 @@
+header{
+  background-image: url("img/recipes/paella/paella-header.jpg");
+}
+
+.titlepage h1, .titlepage p, .titlepage img{
+  margin: 10px;
+}
+.titlepage{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 207px;
+  height: fit-content;
+}
+li{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 7px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  height: fit-content;
+}
+
+
+.ttlart{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 70px 0 20px;
+}
+
+.ttlart div p{
+  font-size: 20px;
+  padding: 10px 20px 0 20px;
+}
+.ttlart div i{
+  width: 15px;
+  padding-top: 7px;
+}
+
+.timer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 40px;
+  margin: 5px 0;
+}
+
+.ttl{
+  font-size: 30px;
+}
+
+
+.article{
+    display: flex;
+    margin: 70px auto;
+    justify-content: center;
+}
+.artrow{
+  display: flex;
+}
+
+.elemart{
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe{
+  display: flex;
+  flex-direction: row;
+}
+.etape{
+  padding: 0 40px;
+}
+.netape {
+  font-size: 18px;
+}
+
+
+.input{
+  margin: 10px;
+}
+
+
+.pub{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.bg{
+  margin: 0 10px 60px 0;
+  padding: 144px 256px 0 0;
+}
+.ad1{
+  background-image: url("img/recipes/sponsored/dessert1.jpg");
+  background-size: cover;
+}
+.ad2{
+  background-image: url("img/recipes/sponsored/dessert2.jpg");
+  background-size: cover;
+  background-position: bottom left;
+}
+.ad3{
+  background-image: url("img/recipes/sponsored/side1.jpg");
+  background-size: cover;
+}
+.bg div{
+  background-color: grey;
+  padding: 15px 10px 5px 10px;
+}
+.bg p{
+  font-size: large;
+  line-height: 0;
+}
+
+
+@media(max-width: 1024px){
+  .input form{
+    display: none;
+  } 
+}
+
+@media(max-width: 768px){
+  .input{
+      display: none;
+  }
+  .recipe{
+    flex-direction: column;
+  }
+  ul{
+    width: 100%;
+  }
+
+  .pub{
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .bg{
+    background-size:cover;
+    background-position: center;
+    margin: 10px auto;
+  }
+
+}
