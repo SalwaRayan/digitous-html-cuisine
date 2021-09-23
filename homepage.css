@@ -38,6 +38,9 @@ header{
     display: flex;
     flex-direction: row;
 }
+.flexart a{
+  color: #000;
+}
 
 .dernart{
     display: flex;
