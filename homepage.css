@@ -79,6 +79,7 @@ header{
 .introduction{
     display: flex;
     flex-direction: row;
+    font-size: 28px;
     margin: 30px 150px;
 }
 
@@ -101,7 +102,7 @@ header{
 }
 
 .antimg{
-    width: 70px;
+padding-left: auto;
 }
 
 .commentaires{
