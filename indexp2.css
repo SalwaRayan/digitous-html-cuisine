@@ -13,6 +13,14 @@ header{
   margin: 10px;
 }
 
+nav a{
+  color: #fff;
+}
+
+nav i{
+  filter: brightness(0) invert(1);  
+}
+
 
 
 
@@ -39,6 +47,10 @@ header{
     flex-direction: row;
 }
 
+.flexart a{
+  color: #000;
+}
+
 .dernart{
     display: flex;
     flex-direction: column;
@@ -62,14 +74,15 @@ header{
 
 .pages{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     text-decoration: underline;
+    padding: 0 10px;
 }
 .pages a{
     color: gray;
 }
 
-.pagesuiv{
+.pageprec{
     display: none;
 }
 
