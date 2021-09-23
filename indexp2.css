@@ -107,4 +107,8 @@ nav i{
         margin: 30px auto;
         align-items: center;
     }
+    .pages{
+      align-items: end;
+      margin: 10px;
+    }
 }
